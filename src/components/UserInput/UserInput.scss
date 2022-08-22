@@ -1,0 +1,31 @@
+.airport-search-container{
+    display: grid;
+    margin: 50px auto;
+    width: 80%;
+    text-align: left;
+    padding: 30px;
+    border: 1px solid #adadad;
+    border-radius: 15px;
+    grid-gap: 30px;
+    grid-template-columns: auto auto;
+    max-width: 480px;
+    background: #fff;
+    box-shadow: 0px 0px 17px -7px #000;
+}
+
+.airport-select{
+    margin: 0 auto 30px;
+}
+
+.MuiAutocomplete-root {
+    width: 100% !important;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+    .airport-search-container{        
+        grid-template-columns: auto;
+    }
+
+
+}
