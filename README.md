@@ -1,5 +1,20 @@
-# Getting Started with Create React App
+# Airport Distance Calculator
+The application aims to calculate the distance (in Nautical Miles) between two US airports. 
 
+## Problem Statement:
+Build a web app using React and deploy it on www.netlify.com, using their free package. This app should calculate the distance between two United States airports in nautical miles, using auto-complete for the airport fields. All United States Airports should be searchable by name or 3-digit code. Bonus: plot the route on Google maps. Note: please choose the API you think best fits your solution.Once completed, please send us (John & Audrey) the Netlify URL of the app and a zip of the source code.
+
+You will be evaluated based on:
+- The structure of your React components, HTML and CSS structure
+- Use of Material AI components
+- The cleanliness (or whatever else you care about) of your visual design
+- Appropriate use of TypeScript
+
+
+## Deployed Demo:
+[Demo](https://630332f23a95cb3b3850eb0e--spectacular-pony-da47fd.netlify.app/)
+
+## Technical Details
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
