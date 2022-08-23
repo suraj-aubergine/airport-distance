@@ -6,7 +6,8 @@ import Autocomplete from "@mui/material/Autocomplete";
 import { IAirport } from "../../interfaces";
 
 type Props = {
-  getAirport: Function;
+  label: string,
+  getAirport: Function,
 }
 
 const AirportSearch = (props: Props) => {
@@ -34,7 +35,7 @@ const AirportSearch = (props: Props) => {
         }}
         sx={{ width: 300 }}
         renderInput={(params) => (
-          <TextField {...params} label="Source Airport" />
+          <TextField {...params} label={props.label} />
         )}
         style={{ fontSize: "14px" }}
       ></Autocomplete>

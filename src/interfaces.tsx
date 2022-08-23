@@ -1,4 +1,6 @@
 export interface IAirport{
     name: string,
-    code: string
+    code: string,
+    lat?: number,
+    lon?: number
 }

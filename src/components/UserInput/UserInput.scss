@@ -1,5 +1,4 @@
 .airport-search-container{
-    display: grid;
     margin: 50px auto;
     width: 80%;
     text-align: left;
@@ -17,9 +16,18 @@
     margin: 0 auto 30px;
 }
 
+.user-input{
+    min-width: 50%;
+}
+
 .MuiAutocomplete-root {
     width: 100% !important;
-    min-width: 300px;
+    min-width: 360px;
+}
+
+.no-map{
+    height: 0;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 767px) {
